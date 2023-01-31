@@ -9,8 +9,8 @@ spec:
     namespace: openshift-gitops
   project: config
   source:
-    repoURL: 'https://github.com/electron1162/rhacm.git'
-    path: "netpol"
+    repoURL: 'https://github.com/electron1162/gitops.git'
+    path: manifests/config/aadsync/overlays/dev
     targetRevision: main
   syncPolicy:
     automated:
