@@ -10,7 +10,7 @@ spec:
   project: config
   source:
     repoURL: 'https://github.com/electron1162/gitops.git'
-    path: manifests/config/rhacm/base
+    path: manifests/config/rhacm/overlays/dev
     targetRevision: main
   syncPolicy:
     automated:
