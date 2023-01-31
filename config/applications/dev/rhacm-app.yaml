@@ -10,7 +10,7 @@ spec:
   project: config
   source:
     repoURL: 'https://github.com/electron1162/gitops.git'
-    path: manifests/config/aadsync/overlays/dev
+    path: manifests/config/rhacm/base
     targetRevision: main
   syncPolicy:
     automated:

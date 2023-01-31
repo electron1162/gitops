@@ -7,5 +7,4 @@ resources:
 - rhacm-argocd.yaml
 - rhacm-cluster-role.yaml
 - rhacm-cluster-role-binding.yaml
-- rhacm-cluster-role.yaml
 - rhacm-netpol.yaml
