@@ -3,4 +3,9 @@ kind: Kustomization
 
 resources:
 - rhacm-secret.yaml
-- rhacm-app.yaml
+- rhacm-appproject.yaml
+- rhacm-argocd.yaml
+- rhacm-cluster-role.yaml
+- rhacm-cluster-role-binding.yaml
+- rhacm-cluster-role.yaml
+- rhacm-netpol.yaml
